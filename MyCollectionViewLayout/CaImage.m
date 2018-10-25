@@ -1,3 +1,6 @@
+
+
+
 //
 //  CaImage.m
 //  MyCollectionViewLayout
@@ -10,4 +13,13 @@
 
 @implementation CaImage
 
++(instancetype)imageWithImageDic:(NSDictionary *)imageDic {
+    
+    CaImage *image = [[CaImage alloc]init];
+    image.imageURL = [NSURL URLWithString:imageDic[@"img"]];
+    image.imageW = [imageDic[@"w"] floatValue];
+    image.imageH = [imageDic[@"h"] floatValue];
+    image.price =  imageDic[@"price"];
+    return image;
+}
 @end

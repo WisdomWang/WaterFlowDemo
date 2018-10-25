@@ -15,6 +15,11 @@
 		4AF502D8210EF00A00069FB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF502D7210EF00A00069FB0 /* main.m */; };
 		4AF502E2210EF00A00069FB0 /* MyCollectionViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF502E1210EF00A00069FB0 /* MyCollectionViewLayoutTests.m */; };
 		4AF502ED210EF00A00069FB0 /* MyCollectionViewLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF502EC210EF00A00069FB0 /* MyCollectionViewLayoutUITests.m */; };
+		4AF502FC210EF17F00069FB0 /* CaCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF502FB210EF17F00069FB0 /* CaCollectionViewLayout.m */; };
+		4AFCBA1C210FFCCE00290D07 /* CaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCBA1B210FFCCE00290D07 /* CaImage.m */; };
+		4AFCBA1F210FFFA200290D07 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCBA1E210FFFA200290D07 /* myCell.m */; };
+		4AFCBA212110141A00290D07 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFCBA202110141A00290D07 /* shop.plist */; };
+		E9BEFD6B4BBF6118B79D744E /* libPods-MyCollectionViewLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 916DBE550BEC6219111445B9 /* libPods-MyCollectionViewLayout.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36A9719F53EECEABDF68CA34 /* Pods-MyCollectionViewLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCollectionViewLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCollectionViewLayout/Pods-MyCollectionViewLayout.release.xcconfig"; sourceTree = "<group>"; };
 		4AF502C5210EF00800069FB0 /* MyCollectionViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCollectionViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF502C8210EF00800069FB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AF502C9210EF00800069FB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		4AF502E8210EF00A00069FB0 /* MyCollectionViewLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCollectionViewLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF502EC210EF00A00069FB0 /* MyCollectionViewLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewLayoutUITests.m; sourceTree = "<group>"; };
 		4AF502EE210EF00A00069FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF502FA210EF17F00069FB0 /* CaCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaCollectionViewLayout.h; sourceTree = "<group>"; };
+		4AF502FB210EF17F00069FB0 /* CaCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaCollectionViewLayout.m; sourceTree = "<group>"; };
+		4AF50301210F153B00069FB0 /* MyCollectionViewLayout-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCollectionViewLayout-Bridging-Header.h"; sourceTree = "<group>"; };
+		4AFCBA1A210FFCCE00290D07 /* CaImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaImage.h; sourceTree = "<group>"; };
+		4AFCBA1B210FFCCE00290D07 /* CaImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaImage.m; sourceTree = "<group>"; };
+		4AFCBA1D210FFFA200290D07 /* myCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		4AFCBA1E210FFFA200290D07 /* myCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		4AFCBA202110141A00290D07 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
+		6AA87D233935956A18F7586F /* Pods-MyCollectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCollectionViewLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCollectionViewLayout/Pods-MyCollectionViewLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		916DBE550BEC6219111445B9 /* libPods-MyCollectionViewLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCollectionViewLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BEFD6B4BBF6118B79D744E /* libPods-MyCollectionViewLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				4AF502E0210EF00A00069FB0 /* MyCollectionViewLayoutTests */,
 				4AF502EB210EF00A00069FB0 /* MyCollectionViewLayoutUITests */,
 				4AF502C6210EF00800069FB0 /* Products */,
+				6E46B257738228C7BDDAFE1D /* Pods */,
+				B1FF13C1B9DFA3444986736E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,13 +122,21 @@
 			children = (
 				4AF502C8210EF00800069FB0 /* AppDelegate.h */,
 				4AF502C9210EF00800069FB0 /* AppDelegate.m */,
+				4AF502FA210EF17F00069FB0 /* CaCollectionViewLayout.h */,
+				4AF502FB210EF17F00069FB0 /* CaCollectionViewLayout.m */,
 				4AF502CB210EF00800069FB0 /* ViewController.h */,
 				4AF502CC210EF00800069FB0 /* ViewController.m */,
+				4AFCBA1D210FFFA200290D07 /* myCell.h */,
+				4AFCBA1E210FFFA200290D07 /* myCell.m */,
+				4AFCBA1A210FFCCE00290D07 /* CaImage.h */,
+				4AFCBA1B210FFCCE00290D07 /* CaImage.m */,
 				4AF502CE210EF00800069FB0 /* Main.storyboard */,
 				4AF502D1210EF00A00069FB0 /* Assets.xcassets */,
 				4AF502D3210EF00A00069FB0 /* LaunchScreen.storyboard */,
+				4AFCBA202110141A00290D07 /* shop.plist */,
 				4AF502D6210EF00A00069FB0 /* Info.plist */,
 				4AF502D7210EF00A00069FB0 /* main.m */,
+				4AF50301210F153B00069FB0 /* MyCollectionViewLayout-Bridging-Header.h */,
 			);
 			path = MyCollectionViewLayout;
 			sourceTree = "<group>";
@@ -132,6 +159,23 @@
 			path = MyCollectionViewLayoutUITests;
 			sourceTree = "<group>";
 		};
+		6E46B257738228C7BDDAFE1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AA87D233935956A18F7586F /* Pods-MyCollectionViewLayout.debug.xcconfig */,
+				36A9719F53EECEABDF68CA34 /* Pods-MyCollectionViewLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1FF13C1B9DFA3444986736E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916DBE550BEC6219111445B9 /* libPods-MyCollectionViewLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF502F1210EF00A00069FB0 /* Build configuration list for PBXNativeTarget "MyCollectionViewLayout" */;
 			buildPhases = (
+				F683A57174EE6189E6CBB2E9 /* [CP] Check Pods Manifest.lock */,
 				4AF502C1210EF00800069FB0 /* Sources */,
 				4AF502C2210EF00800069FB0 /* Frameworks */,
 				4AF502C3210EF00800069FB0 /* Resources */,
+				E8D1C70E4C3DC55285CDC5C8 /* [CP] Embed Pods Frameworks */,
+				A1F66BF68A896CF002FDC4E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +246,7 @@
 				TargetAttributes = {
 					4AF502C4210EF00800069FB0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					4AF502DC210EF00A00069FB0 = {
 						CreatedOnToolsVersion = 9.3;
@@ -235,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFCBA212110141A00290D07 /* shop.plist in Resources */,
 				4AF502D5210EF00A00069FB0 /* LaunchScreen.storyboard in Resources */,
 				4AF502D2210EF00A00069FB0 /* Assets.xcassets in Resources */,
 				4AF502D0210EF00800069FB0 /* Main.storyboard in Resources */,
@@ -257,14 +306,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1F66BF68A896CF002FDC4E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCollectionViewLayout/Pods-MyCollectionViewLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D1C70E4C3DC55285CDC5C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCollectionViewLayout/Pods-MyCollectionViewLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F683A57174EE6189E6CBB2E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCollectionViewLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AF502C1210EF00800069FB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF502FC210EF17F00069FB0 /* CaCollectionViewLayout.m in Sources */,
+				4AFCBA1F210FFFA200290D07 /* myCell.m in Sources */,
 				4AF502CD210EF00800069FB0 /* ViewController.m in Sources */,
 				4AF502D8210EF00A00069FB0 /* main.m in Sources */,
 				4AF502CA210EF00800069FB0 /* AppDelegate.m in Sources */,
+				4AFCBA1C210FFCCE00290D07 /* CaImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +534,10 @@
 		};
 		4AF502F2210EF00A00069FB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA87D233935956A18F7586F /* Pods-MyCollectionViewLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyCollectionViewLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,14 +546,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZexueEducation.MyCollectionViewLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCollectionViewLayout/MyCollectionViewLayout-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4AF502F3210EF00A00069FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A9719F53EECEABDF68CA34 /* Pods-MyCollectionViewLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyCollectionViewLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +567,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZexueEducation.MyCollectionViewLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCollectionViewLayout/MyCollectionViewLayout-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

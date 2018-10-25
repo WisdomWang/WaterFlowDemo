@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface myCell : UICollectionViewCell
-
+@property (nonatomic, strong) NSURL *imageURL;
+@property (nonatomic, strong)  UIImageView *image;
+@property (nonatomic, strong) UILabel *label;
 @end

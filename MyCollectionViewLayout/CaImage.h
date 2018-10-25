@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface CaImage : NSObject
+
+@property (nonatomic, strong) NSURL *imageURL;
+@property (nonatomic, assign) CGFloat imageW;
+@property (nonatomic, assign) CGFloat imageH;
+@property (nonatomic, copy) NSString *price;
+
++ (instancetype)imageWithImageDic:(NSDictionary *)imageDic;
 
 @end
